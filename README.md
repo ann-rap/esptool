@@ -28,6 +28,7 @@ avrdude.exe -p atmega328p -c arduino -P COM3 -b 115200 -U flash:w:"\\wsl.localho
 PODKREŚLONE SPRAWDZIĆ
 
 
+
 KOMPILACJA NA PŁYTKĘ ESP
 pip install esptool
 pobrać https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads - sterownik do programatora esp
