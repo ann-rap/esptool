@@ -15,8 +15,8 @@
 
 #define P0 1013.25
 
- const char* ssid     = "SG55";
-const char* password = "12345678!";
+ const char* ssid     = "...";
+const char* password = "...";
  HTTPClient http;
   JsonDocument doc;
   JsonDocument finaldoc;
