@@ -78,3 +78,8 @@ wgranie:
 ```bash 
 python -m esptool --chip esp32 --port COM4 write-flash -z 0x1000 "\\wsl.localhost\FedoraLinux-43\home\user\Documents\PlatformIO\Projects\test\.pio\build\esp32dev\bootloader.bin" 0x8000 "\\wsl.localhost\FedoraLinux-43\home\user\Documents\PlatformIO\Projects\test\.pio\build\esp32dev\partitions.bin" 0x10000 "\\wsl.localhost\FedoraLinux-43\home\user\Documents\PlatformIO\Projects\test\.pio\build\esp32dev\firmware.bin"
 ```
+można wygenerować komendę tutaj:
+https://margiorno.github.io/lazabawa/
+
+[![Generator Komendy](https://img.shields.io/badge/Generator-KLIKNIJ_TUTAJ-blue?style=for-the-badge&logo=visualstudiocode)](https://margiorno.github.io/lazabawa/)
+
